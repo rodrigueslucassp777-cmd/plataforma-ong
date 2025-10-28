@@ -1,0 +1,26 @@
+:root {
+  /* 🎨 Paleta de Cores */
+  --color-primary: #004080;
+  --color-primary-light: #3366cc;
+  --color-secondary: #ff9900;
+  --color-secondary-light: #ffcc66;
+  --color-neutral-100: #ffffff;
+  --color-neutral-200: #f5f5f5;
+  --color-neutral-300: #cccccc;
+  --color-neutral-900: #1a1a1a;
+
+  /* 🔠 Tipografia */
+  --font-xs: 0.75rem;
+  --font-sm: 0.875rem;
+  --font-md: 1rem;
+  --font-lg: 1.25rem;
+  --font-xl: 1.5rem;
+
+  /* 📏 Espaçamentos */
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-3: 24px;
+  --space-4: 32px;
+  --space-5: 48px;
+  --space-6: 64px;
+}
