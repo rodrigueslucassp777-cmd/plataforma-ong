@@ -1,0 +1,20 @@
+    document.querySelectorAll("a[data-link]").forEach(link => {
+  link.addEventListener("click", e => {
+    e.preventDefault();
+    const url = e.target.getAttribute("href");
+    fetch(url)
+      .then(res => res.text())
+      .then(html => {
+        document.querySelector("main").innerHTML = html;
+        history.pushState(null, null, url);
+      });
+  });
+});
+
+window.addEventListener("popstate", () => {
+  fetch(location.pathname)
+    .then(res => res.text())
+    .then(html => {
+      document.querySelector("main").innerHTML = html;
+    });
+});

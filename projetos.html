@@ -4,36 +4,33 @@
   <meta charset="UTF-8">
   <title>Projetos Sociais</title>
   <link rel="stylesheet" href="css/style.css">
+  <script type="module" src="js/templates.js"></script>
 </head>
 <body>
   <header>
     <h1>Projetos da ONG</h1>
     <nav>
       <ul>
-        <li><a href="index.html">Início</a></li>
-        <li><a href="projetos.html">Projetos</a></li>
-        <li><a href="cadastro.html">Cadastro</a></li>
+        <li><a href="index.html" data-link>Início</a></li>
+        <li><a href="projetos.html" data-link>Projetos</a></li>
+        <li><a href="cadastro.html" data-link>Cadastro</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
-    <section>
-      <h2>Projeto Sementes do Amanhã</h2>
-      <p>Educação complementar para crianças em situação de vulnerabilidade.</p>
-      <img src="imagens/projeto1.jpg" alt="Crianças em sala de aula">
-    </section>
+    <h2>Projetos em andamento</h2>
+    <div id="projetos"></div>
 
-    <section>
-      <h2>Seja Voluntário</h2>
-      <p>Transforme vidas com seu tempo e talento.</p>
-      <img src="imagens/voluntario.jpg" alt="Voluntário em ação">
-    </section>
+    <script type="module">
+      import { criarCardProjeto } from './js/templates.js';
 
-    <section>
-      <h2>Como Doar</h2>
-      <p>Doe via Pix, boleto ou cartão. Toda ajuda conta!</p>
-    </section>
+      const container = document.getElementById("projetos");
+
+      container.innerHTML += criarCardProjeto("Sementes do Amanhã", "Educação complementar para crianças em situação de vulnerabilidade.");
+      container.innerHTML += criarCardProjeto("Seja Voluntário", "Transforme vidas com seu tempo e talento.");
+      container.innerHTML += criarCardProjeto("Como Doar", "Doe via Pix, boleto ou cartão. Toda ajuda conta!");
+    </script>
   </main>
 
   <footer>
