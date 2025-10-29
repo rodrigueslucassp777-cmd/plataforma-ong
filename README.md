@@ -1,38 +1,26 @@
-markdown
-# 🌱 Plataforma ONG
+# ONG Esperança Viva
 
-Este é um projeto de site institucional para uma ONG fictícia, desenvolvido com HTML5, CSS3 e JavaScript. A plataforma apresenta informações sobre a organização, seus projetos sociais e permite o cadastro de novos voluntários.
+Projeto desenvolvido para a disciplina de Desenvolvimento Web.
 
-## 📄 Páginas do site
+## 🧾 Sobre
 
-- **index.html** – Página inicial com apresentação da ONG e sua equipe
-- **projetos.html** – Lista de projetos sociais com imagens e descrições
-- **cadastro.html** – Formulário para cadastro de voluntários com validação de campos
+Site institucional da ONG Esperança Viva, com foco em acessibilidade, organização e otimização para produção.
 
-## 🖼️ Estrutura de pastas
+## 🚀 Tecnologias
 
-plataforma-ong/ ├── index.html ├── projetos.html ├── cadastro.html ├── css/ │ └── style.css ├── js/ │ └── mascaras.js └── imagens/ ├── equipe.jpg ├── projeto1.jpg └── voluntario.jpg
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- Git e GitHub
 
-Código
+## 📦 Estrutura
 
-## 🚀 Como rodar o projeto localmente
+- `index.html`, `projetos.html`, `cadastro.html`
+- Arquivos minificados em `dist/`
+- Imagens comprimidas
+- Código acessível e semântico
 
-1. Clone o repositório:
-   clone https://github.com/rodrigueslucassp777-cmd/plataforma-ong.git
-   
-2. Acesse a pasta:
-  cd plataforma-ong
+## 🌐 Deploy
 
-3. Abra o arquivo index.html no navegador
+[🔗 Acesse o site aqui](https://github.com/rodrigueslucassp777-cmd/plataforma-ong)
 
-💡 Tecnologias utilizadas
-HTML5
-
-CSS3
-
-JavaScript (validação de formulário)
-
-📌 Observações
-Este projeto foi desenvolvido com fins educacionais para praticar conceitos de desenvolvimento web e controle de versão com Git e GitHub.
-
-Feito com 💙 por Lucas Rodrigues
