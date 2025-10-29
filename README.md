@@ -22,5 +22,5 @@ Site institucional da ONG Esperança Viva, com foco em acessibilidade, organiza�
 
 ## 🌐 Deploy
 
-[🔗 Acesse o site aqui](https://github.com/rodrigueslucassp777-cmd/plataforma-ong](https://rodrigueslucassp777-cmd.github.io/plataforma-ong/)
+[🔗 Acesse o site aqui](https://rodrigueslucassp777-cmd.github.io/plataforma-ong/)
 
